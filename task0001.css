@@ -1,8 +1,14 @@
 h1{
 	color:blue;
+	text-transform: uppercase;
+	text-decoration:underline;
+	word-spacing: 0.5em;
+	font: italic 900 small-caps 30px Verdana;
 }
 h2{
 	font-size:14px;
+	text-align: center;
+
 }
 p{
 	font-size:12px;
@@ -12,4 +18,9 @@ p{
 }
 img{
 	border:2px red solid;
+}
+.redRecT{
+	background: red;
+	width:960px;;
+	margin: 0 auto;
 }
