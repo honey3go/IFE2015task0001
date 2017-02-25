@@ -24,3 +24,51 @@ img{
 	width:960px;;
 	margin: 0 auto;
 }
+
+#DIV-A{
+	background:navy;
+	width: 150px;
+	position: absolute;
+}
+#DIV-B {
+	background: olive;
+	position: relative;
+	top: 0;
+	left: 150px;
+	margin-right: 150px;
+}
+.BOX{
+	width: 100%;
+	position: relative;
+}
+#DIV-C{
+	background:maroon;
+	width: 150px;
+    position: absolute;
+}
+#DIV-D{
+	background: navy;
+	margin: 0 150px;
+}
+#DIV-E{
+	background: yellow;
+	width: 150px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.container{
+	background: red;
+	width: 80%;
+	padding: 0 10%;
+}
+.container div{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin:20px;
+	background: blue;
+}
+.clear_float{
+    clear: both;
+}
